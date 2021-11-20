@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+header{
+    background-color: rgb(55, 81, 126);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    color:white;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    font-family: 'Roboto', serif;
+    margin: 0 .8rem;
+}
+nav span{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav .tab{
+    margin: 1rem 0 0 12rem;
+    font-family: 'Roboto', serif;
+}
+.row img{
+    height: 40%;
+    width: 40%;
+    border-radius: 3px;
+}
+
+header .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+header .row .col{
+    display: flex;
+    flex-direction: column;
+}
+header .row .heading{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem 0 0 2rem;
+}
+header .row p{
+    margin: 1rem 0 0 2rem;
+    color:white;
+    font-size: 2rem;
+
+}
+header nav .hell{
+    border: 1rem;
+}
+header .row .get{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+}
+header .row .get .start{
+    margin: 2rem;
+    border: 1rem solid black;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+}
+header .row .get .video{
+    margin: 2.8rem 0 0 0;
+    color: white;
+}
+header .row .star{
+    margin:2.9rem 0.1rem 0 0 ;
+}
+footer{
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem 0 10rem;
+}
